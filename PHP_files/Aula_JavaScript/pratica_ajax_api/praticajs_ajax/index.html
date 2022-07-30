@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - prática Ajax</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="codigo.js"></script>
+</head>
+
+<body>
+    <h1>Javascript - prática Ajax</h1>
+    <div class="container">
+        <aside>
+            <h3>Selecione</h3>
+            <select name="estado" id="estado">
+                <option value="">Selecione...</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="SP">São Paulo</option>
+                <option value="ES">Espírito Santo</option>
+            </select>
+            <select name="cidace" id="cidade">
+            </select>
+        </aside>
+        <article>
+            <h3>Depoimento</h3>
+            <form method="post">
+                <label for="codigoIbge">Código</label><br>
+                <input type="text" name="codigoIbge" id="codigoIbge" readonly><br>
+                <label for="nomeIbge">Nome</label><br>
+                <input type="text" name="nomeIbge" id="nomeIbge" readonly><br>
+
+                <label for="comentario">Comentário</label><br>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"
+                    placeholder="Comente aqui..."></textarea><br>
+                <button type="submit">Salvar</button>
+            </form>
+        </article>
+    </div>
+</body>
+
+</html>

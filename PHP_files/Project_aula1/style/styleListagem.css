@@ -1,0 +1,42 @@
+html{
+    text-align: center;
+    text-decoration: black;
+    border-collapse: collapse;
+}
+body{
+    background-color: darkslategray;
+}
+
+h1{
+    text-align: center;
+    text-decoration: black;
+}
+
+td, th{
+    border-color: black;
+    padding: 5px 10px;  
+}
+
+
+table{
+    background-color: whitesmoke;
+    border: medium black;
+    width: 100%;
+    border-width: 0,2cm;
+    border-style: solid;
+    border-collapse: collapse;
+    margin: auto;
+    text-decoration: black;
+}
+nav {
+    background-color: black;
+    color: white;
+    display: flexbox;
+    margin: auto;
+    padding: 15px;
+    }
+
+nav a{
+    text-decoration: none;
+    color: white;
+}

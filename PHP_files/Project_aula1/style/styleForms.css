@@ -1,0 +1,65 @@
+  
+html{            
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+body{
+    background-color: darkslategray;
+}
+h1{
+    text-align: center;
+    font-size: 200%;
+}
+p{
+    font-size: 150%;
+}
+
+label{
+    text-align: right;
+    font-size: 150%;
+}
+input{
+    background-color: white;
+    border-color: black;
+    text-align: right;
+    height: 20px;
+    width: 350px;
+    font-size: 100%;
+}
+button{    
+    text-decoration-color: black;
+    font-weight: 700;
+    font-size: 100%;
+    position: fixed;
+    
+}
+nav {
+    background-color: black;
+    color: white;
+    display: flexbox;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+        
+nav a{    
+    font-size: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    font-size: 150%;
+    text-decoration: white;
+}
+select{
+    height: 30px;
+    width: 250px;
+    text-decoration: black;
+}
+        

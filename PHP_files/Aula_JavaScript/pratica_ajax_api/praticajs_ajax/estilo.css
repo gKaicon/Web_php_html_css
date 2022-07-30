@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Be Vietnam Pro');
+
+* {
+    font-family: 'Be Vietnam Pro';
+}
+
+body {
+    background-color: #156064;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+}
+
+h3 {
+    color: darkslategrey;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+aside {
+    width: 30%;
+    background-color: #F8E16C;
+}
+
+article {
+    background-color: #FFC2B4;
+    width: 65%;
+    padding: 0 10px;
+}
+
+select {
+    width: 90%;
+    margin: 5px 5%;
+}
