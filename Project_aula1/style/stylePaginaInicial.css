@@ -1,0 +1,188 @@
+*{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(122,122,122);
+}
+nav {
+    background-color: rgb(122, 122, 122);
+    display: flex;
+    flex-direction: row;
+    left: -100px;
+    border-radius: 0px 0px 16px 0px;
+}
+.menu {
+    display: flex;
+    transition: all .2s linear;
+    border-bottom: 13px solid rgb(122, 122, 122);
+    background-color: rgb(122, 122, 122);
+    text-decoration: solid black;
+    font-weight: 700;
+}
+.menu>li {
+    margin: auto;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: black;
+}
+.menu>li:hover .submenu {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+.submenu>li {
+    width: 150px;
+    padding: 5px;
+    cursor: pointer;
+}
+.submenu {
+    display: none;
+    padding: 10px 15px;
+    list-style: none;
+    background-color: rgb(128, 128, 128);
+}
+li:hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 100px;
+}
+div{
+    background-color: rgb(122,122,122);
+    text-align: center;
+    height: 100px;
+    position: absolute;
+    transition: all .2s linear;
+    left: -1000px;
+    border-radius: 0px 16px 0px 0px;
+}
+#icon{
+    cursor: pointer;
+    position: absolute ;
+    
+}
+#check{
+    display: none;
+}
+#check:checked ~ .barra{
+    transform: translateX(1100px);
+}
+ul{
+    list-style-type: none;
+    list-style: none;
+}
+
+
+@media screen and (max-width: 420px){
+    nav {
+        background-color: rgb(122, 122, 122);
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: -108px;
+        padding: 0px;
+        margin: auto;
+        width: auto;
+        border-radius: 0px 0px 16px 0px;
+        top: 100px;
+    }
+    .menu {
+        display: flex;
+        transition: all .2s linear;
+        border-bottom: 13px solid rgb(122, 122, 122);
+        margin: 0;
+        width: 100%;
+        background-color: rgb(122, 122, 122);
+        text-decoration: solid black;
+        font-weight: 700;
+    }
+    div{
+        background-color: rgb(122,122,122);
+        text-align: center;
+        height: 100px;
+        width: 103px;
+        position: absolute;
+        transition: all .2s linear;
+        left: -1000px;
+        border-radius: 0px 16px 0px 0px;
+    }
+    body{
+        background-color: darkslategray;
+    }
+}
+@media screen and (min-width: 420px) and (max-width: 1024px){
+    ul{
+        list-style-type: none;
+        list-style: none;
+        padding: 2px;
+    }
+    nav {
+        background-color: rgb(122, 122, 122);
+        display: flex;
+        flex-direction: row;
+        left: -100px;
+        border-radius: 0px 0px 16px 0px;
+    }
+    .menu {
+        display: flex;
+        transition: all .2s linear;
+        border-bottom: 13px solid rgb(122, 122, 122);
+        background-color: rgb(122, 122, 122);
+        text-decoration: solid black;
+        font-weight: 700;
+    }
+    .menu>li {
+        margin: auto;
+        padding: 15px;
+        cursor: pointer;
+        text-decoration: black;
+    }
+    .menu>li:hover .submenu {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+    }
+    .submenu>li {
+        width: 150px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .submenu {
+        display: none;
+        padding: 10px 15px;
+        list-style: none;
+        background-color: rgb(128, 128, 128);
+    }
+    li:hover {
+        text-decoration: underline;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        text-size-adjust: 100px;
+    }
+    div{
+        background-color: rgb(122,122,122);
+        text-align: center;
+        height: 100px;
+        position: absolute;
+        transition: all .2s linear;
+        left: -1000px;
+        border-radius: 0px 16px 0px 0px;
+    }
+    #icon{
+        cursor: pointer;
+        position: absolute ;
+    }
+    #check{
+        display: none;
+    }
+    #check:checked ~ .barra{
+        transform: translateX(1100px);
+    }
+
+}
