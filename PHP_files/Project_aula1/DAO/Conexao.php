@@ -4,7 +4,7 @@ class Conexao{
 
     private static $dsn = 'mysql:host=localhost;dbname=ProjetoIntegradorPHP';
     private static $usuario = 'root';
-    private static $senha = 'GabrielK@!c0n21';
+    private static $senha = '';
     private static $con = null;
 
     public function __construct(){
