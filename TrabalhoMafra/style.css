@@ -1,0 +1,40 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    margin: 0px auto;
+    display: block;
+    border-radius: 200px;
+    width: 0px auto;
+    height: 0px auto;
+}
+#icon{
+    display: block;
+    border-radius: 200px;
+    width: 20px;
+    height: 20px;
+}
+body{
+    background-image: url("../LinksTree/Fundo_site-ConversImagem.jpg");
+    background-position: center;
+    width: 0px auto;
+    height: 0px auto;
+    opacity: 0.5;
+}
+h1 {
+    text-align: center;
+    display: block;
+    font-family: Helvetica;
+    color: black;
+}
+h2{
+    text-align: center;
+    display: block;
+    font-family: Helvetica;
+    color: black;
+}
+div{
+    margin: 100px;
+    background-color: darkgrey;
+}
