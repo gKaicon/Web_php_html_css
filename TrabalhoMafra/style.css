@@ -1,5 +1,5 @@
 *{
-    color: black;
+    color: rgb(0, 0, 0);
 }
 body {
     background-image: url("../TrabalhoMafra/Fundo_site-ConversImagem.jpg");
@@ -15,18 +15,22 @@ h1 {
     font-family: Helvetica;
     color: rgb(44, 255, 2);
 }
+/*h1*/
 .redes{
     color: rgb(252, 227, 0);
 }
 h2 {
     margin: 10px;
-    color: rgb(218, 181, 19);;
+    color: rgb(218, 181, 19);
     font-family: Helvetica;
 }
 h3{
     margin: 15px;
     color: whitesmoke;
     font-family: Helvetica;
+}
+h4{
+    color: whitesmoke;
 }
 details {
     border: 1px solid #aaa;
@@ -52,7 +56,7 @@ details[open] summary {
 }
 /*Icon/images*/
 .iconCard{
-    width: 150px;
+    width: 120px;
     border-radius: 10px;
 }
 .icon {
@@ -79,10 +83,15 @@ details[open] summary {
 }
 
 .botoes {
-    background-color: rgba(71, 70, 70, 0);
     display: flex;
     justify-content: space-evenly;
 }
+
+.botoesLoc {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .conteudo{
     margin: 100px;
     display: block;
