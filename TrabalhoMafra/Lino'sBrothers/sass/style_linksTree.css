@@ -1,0 +1,104 @@
+* {
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-image: url("../imagens/fundo/FundoTextura.jpg");
+    background-position: center;
+    width: 0px auto;
+    height: 0px auto;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    font-size: 40px;
+    font-family: Helvetica;
+    color: rgb(231, 235, 25);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.icon {
+    display: block;
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+}
+
+.iconlogo {
+    width: 350px;
+    height: 350px;
+}
+
+/*divs*/
+.logo {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 0px auto;
+    height: 0px auto;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container_localizacao {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botoesLoc {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nomeLoc {
+    font-size: 2rem;
+    margin-top: 0.3rem;
+    text-align: center;
+    color: aliceblue;
+}
+
+.divlogo {
+    display: flex;
+    /* Define a div como um contêiner flexível */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+}
+
+img {
+    max-width: 100%;
+    /* Garante que a imagem não exceda a largura da div */
+    max-height: 100%;
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 15%;
+    padding: 20px 15px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.float-B {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: medium;
+}
